@@ -64,7 +64,7 @@ p{
 .card{
     background-color: var(--Very-dark-blue2);
     width: 320px;
-    margin: 100px auto;
+    margin: 150px auto;
     display: block;
     padding: 25px;
     display: flex;
@@ -78,7 +78,7 @@ p{
     background-image: url("../images/image-equilibrium.jpg");
     background-size: cover;
     background-position: center;
-    height: 280px;
+    height: 300px;
     border-radius: 10px;
 }
 
