@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root{
+    /* Colors */
+    
+        /* Primary */
+    
+        --Soft-blue: hsl(215, 51%, 70%);
+        --Cyan: hsl(178, 100%, 50%);
+    
+        /* Neutral */
+    
+        --Very-dark-blue1: hsl(217, 54%, 11%);
+        --Very-dark-blue2: hsl(216, 50%, 16%);
+        --Very-dark-blue3: hsl(215, 32%, 27%);
+        --White: hsl(0, 0%, 100%);
+    
+        /* Typography */
+    
+        --text-size: 18px;
+}
+
+/* -------------------CUSTOM CSS------------------- */
+
+/* GENERAL CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+
+/* BODY */
+
+body{
+    color: var(--White);
+    background-color: var(--Very-dark-blue1);
+}
+
+/* TEXT */
+
+h3{
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+p{
+    line-height: 1.5;
+    font-weight: 300;
+    color: var(--Soft-blue);
+}
+
+
+.container{
+    background-color: var(--Very-dark-blue1);
+    padding: 10px;
+}
+
+.card{
+    background-color: var(--Very-dark-blue2);
+    width: 320px;
+    margin: 100px auto;
+    display: block;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+/* CARD IMAGE SECTION */
+
+#equilibrium{
+    background-image: url("../images/image-equilibrium.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    border-radius: 10px;
+}
+
+#equilibrium span{
+    background-color: hsl(178, 100%, 50%, 0.5);
+    display: flex;
+    place-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.equilibrium{
+    place-self: center;    
+}
+
+/* TEXT SECTION */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.1px solid var(--Soft-blue);
+    padding: 20px 0;
+}
+
+.content div{
+    display: flex;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.currency{
+    color: var(--Cyan);
+    font-weight: 600;
+}
+
+.icon-ethereum{
+    content: url("../images/icon-ethereum.svg");
+    width: 10px;
+    height: 17px;
+    place-self: center;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.icon-clock{
+    content: url("../images/icon-clock.svg");
+    width: 15px;
+    height: 15px;
+    place-self: center;
+    margin-left: 85px;
+    margin-right: 5px;
+}
+
+/* AVATAR SECTION */
+
+span{
+    font-weight: 400;
+    color: var(--White);
+}
+
+#avatar{
+    display: flex;
+    align-items:center;
+    margin-top: 15px;
+    gap: 20px;
+
+}
+
+.avatar{
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--White);
+}
+
+
+/* Active state */
+
+#equilibrium:hover{
+    span{
+        visibility: visible;
+    }
+
+}
+
+h3:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+span:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+    .container{
+        min-width: 350px;
+    }
+}
