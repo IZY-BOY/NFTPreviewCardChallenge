@@ -22,8 +22,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/IZY-BOY/NFTPreviewCardChallenge.git)
+- Live Site URL: [Add live site URL here](https://izy-boy.github.io/NFTPreviewCardChallenge/)
 
 ## My process
 
